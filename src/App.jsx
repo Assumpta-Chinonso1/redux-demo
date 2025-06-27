@@ -84,10 +84,11 @@ const unsubscribe = store.subscribe(() => {
 })
 
 
-store.dispatch({
+/*store.dispatch({
   type: CAKE_ORDERED,
   quantity:1
-})
+})*/
+store.dispatch(orderCake())
 store.dispatch(orderCake())
 store.dispatch(orderCake())
 
