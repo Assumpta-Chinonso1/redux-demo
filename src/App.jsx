@@ -1,63 +1,23 @@
-/*import React from 'react'
-import { createStore } from 'redux'
-
-const App = () =>{
-
-
-
-const CAKE_ORDERED = 'CAKE_ORDERED'
-
-function orderCake() {
-  return {
-    type: CAKE_ORDERED,
-    quantity: 1,
-  }
-}
-
-const initialState = {
-  numberOfCake: 10,
-}
-
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case CAKE_ORDERED:
-      return {
-        ...state,
-        numberOfCake: state.numberOfCake - 1,
-      }
-    default:
-      return state
-  }
-}
-
-const store = createStore(reducer)
-
-console.log('initial state', store.getState())
-
- const unsubscribe = store.subscribe(() => {
-  console.log('updated state', store.getState())
-})
-
-store.dispatch(orderCake())
-store.dispatch(orderCake())
-store.dispatch(orderCake())
-
-unsubscribe()
-
-}
-export default App */
-
 import React from 'react'
 import { createStore } from 'redux'
 import './App.css'
 
 const CAKE_ORDERED = 'CAKE_ORDERED'
+const RESTOCKED_CAKE = 'RESTOCKED_CAKE'
 
 function orderCake() {
   return {
     type: CAKE_ORDERED,
     quantity: 1,
   }
+}
+
+function restockedCake(qty = 1) {
+  return{
+    type: RESTOCKED_CAKE,
+    quantity: qty
+  }
+  
 }
 
 const initialState = {
@@ -71,6 +31,12 @@ const reducer = (state = initialState, action) => {
         ...state,
         numberOfCake: state.numberOfCake - 1,
       }
+      case RESTOCKED_CAKE:
+        return {
+          ...state,
+          numberOfCake: state.numberOfCake + action.quantity
+        }
+
     default:
       return state
   }
