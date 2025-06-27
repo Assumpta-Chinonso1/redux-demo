@@ -49,6 +49,7 @@ export default App */
 
 import React from 'react'
 import { createStore } from 'redux'
+import './App.css'
 
 const CAKE_ORDERED = 'CAKE_ORDERED'
 
