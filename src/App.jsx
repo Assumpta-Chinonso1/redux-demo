@@ -70,7 +70,6 @@ actions.restockedCake(3)
 
 unsubscribe()
 
-
 const App = () => {
   const state = store.getState()
 
