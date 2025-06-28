@@ -19,7 +19,6 @@ function restockedCake(qty = 1) {
     type: RESTOCKED_CAKE,
     payload: qty
   }
-  
 }
 
 const initialState = {
