@@ -74,7 +74,7 @@ const App = () => {
   return (
     <div style={{ textAlign: 'center', marginTop: '40px' }}>
       <h1>Cake Shop 🍰</h1>
-      <p>Number of Cakes Left: {state.numberOfCake}</p>
+      <p>Number of Cakes Left:{state.numberOfCake}</p>
     </div>
   )
 }
