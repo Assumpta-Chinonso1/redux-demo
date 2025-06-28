@@ -66,8 +66,7 @@ const actions = bindActionCreators({orderCake, restockedCake}, store.dispatch)
 actions.orderCake
 actions.orderCake
 actions.orderCake
-actions.restockedCake(31)
-
+actions.restockedCake(3)
 
 unsubscribe()
 
