@@ -21,7 +21,7 @@ function restockedCake(qty = 1) {
 }
 
 const initialState = {
-  numberOfCake: 10,
+  numberOfCake: 20,
 }
 
 const reducer = (state = initialState, action) => {
@@ -58,7 +58,7 @@ const unsubscribe = store.subscribe(() => {
 store.dispatch(orderCake())
 store.dispatch(orderCake())
 store.dispatch(orderCake())
-store.dispatch(restockedCake(5))
+store.dispatch(restockedCake(2))
 
 unsubscribe()
 
