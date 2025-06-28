@@ -51,7 +51,6 @@ const unsubscribe = store.subscribe(() => {
   console.log('updated state', store.getState())
 })
 
-
 /*store.dispatch({
   type: CAKE_ORDERED,
   quantity:1
