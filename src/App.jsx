@@ -72,7 +72,7 @@ const App = () => {
   const state = store.getState()
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '40px' }}>
+    <div className='cake-count' style={{ textAlign: 'center', marginTop: '40px' }}>
       <h1>Cake Shop 🍰</h1>
       <p>Number of Cakes Left:{state.numberOfCake}</p>
     </div>
