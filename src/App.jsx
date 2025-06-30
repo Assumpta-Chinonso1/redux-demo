@@ -51,10 +51,6 @@ const unsubscribe = store.subscribe(() => {
   console.log('updated state', store.getState())
 })
 
-
-
-
-
 const actions = bindActionCreators({orderCake, restockedCake}, store.dispatch)
 actions.orderCake
 actions.orderCake
