@@ -9,7 +9,9 @@ function orderCake() {
   return {
     type: CAKE_ORDERED,
     payload: 1,
+
   }
+  
 }
 
 function restockedCake(qty = 1) {
@@ -50,6 +52,7 @@ const unsubscribe = store.subscribe(() => {
 })
 
 const actions = bindActionCreators({orderCake, restockedCake}, store.dispatch)
+
 actions.orderCake
 actions.orderCake
 actions.orderCake
@@ -59,14 +62,15 @@ unsubscribe()
 
 const App = () => {
   const state = store.getState()
-
   return (
     <div className='cake-count' style={{ textAlign: 'center', marginTop: '40px' }}>
       <h1>Cake Shop 🍰</h1>
       <p>Number of Cakes Left:{state.numberOfCake}</p>
     </div>
+
   )
 }
+
 
 export default App
 
