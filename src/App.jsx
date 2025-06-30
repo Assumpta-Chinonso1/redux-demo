@@ -9,7 +9,6 @@ function orderCake() {
   return {
     type: CAKE_ORDERED,
     payload: 1,
-
   }
 }
 
