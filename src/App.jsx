@@ -11,7 +11,6 @@ function orderCake() {
     payload: 1,
 
   }
-  
 }
 
 function restockedCake(qty = 1) {
