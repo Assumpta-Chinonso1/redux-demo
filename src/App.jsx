@@ -35,7 +35,6 @@ const reducer = (state = initialState, action) => {
           ...state,
           numberOfCake: state.numberOfCake + action.payload
         }
-
     default:
       return state
   }
