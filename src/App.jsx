@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux'
 
 const CAKE_ORDERED = 'CAKE_ORDERED'
 const RESTOCKED_CAKE = 'RESTOCKED_CAKE'
-//const bindActionCreators = redux.bindActionCreators
+
 
 function orderCake() {
   return {
