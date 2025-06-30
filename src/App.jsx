@@ -53,8 +53,6 @@ const unsubscribe = store.subscribe(() => {
 
 /*store.dispatch({
   type: CAKE_ORDERED,
-  quantity:1
-})*/
 
 
 
