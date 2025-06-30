@@ -55,9 +55,7 @@ const unsubscribe = store.subscribe(() => {
   type: CAKE_ORDERED,
   quantity:1
 })*/
- /*store.dispatch(orderCake())
-store.dispatch(orderCake())
-store.dispatch(orderCake())
+
 
 
 const actions = bindActionCreators({orderCake, restockedCake}, store.dispatch)
