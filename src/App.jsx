@@ -6,7 +6,6 @@ import { bindActionCreators } from 'redux'
 const CAKE_ORDERED = 'CAKE_ORDERED'
 const RESTOCKED_CAKE = 'RESTOCKED_CAKE'
 
-
 function orderCake() {
   return {
     type: CAKE_ORDERED,
