@@ -1,6 +1,6 @@
 import React from 'react'
 
-//store
+/*store
 interface CounterSate {
   value: Number;
 }
@@ -10,7 +10,7 @@ interface CounterSate {
 
 //action
 const increment = {type: "INCREMENT", payload: 10}
-const decremenet = {type: "DECREMENT"}
+const decremenet = {type: "DECREMENT"}*/
 
 const App = () => {
   return (
