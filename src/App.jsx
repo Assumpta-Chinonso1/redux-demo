@@ -1,6 +1,14 @@
 import React from 'react'
 
 //store
+interface CounterSate {
+  value: Number;
+}
+  interface UserSate {
+    inSigned: boolean;
+}
+
+
 
 
 
