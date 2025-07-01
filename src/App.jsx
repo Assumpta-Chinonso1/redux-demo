@@ -1,7 +1,7 @@
 import React from 'react'
-import { createStore } from 'redux'
+//import { createStore } from 'redux'
 import './App.css'
-import { bindActionCreators } from 'redux'
+/*import { bindActionCreators } from 'redux'
 
 const CAKE_ORDERED = 'CAKE_ORDERED'
 const RESTOCKED_CAKE = 'RESTOCKED_CAKE'
@@ -65,7 +65,7 @@ const App = () => {
   )
 }
 
-export default App
+export default App*/
 
 
 
