@@ -8,7 +8,9 @@ interface CounterSate {
     inSigned: boolean;
 }
 
-
+//action
+const increment = {type: "INCREMENT", payload: 10}
+const decremenet = {type: "DECREMENT"}
 
 
 
