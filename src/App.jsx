@@ -12,10 +12,6 @@ interface CounterSate {
 const increment = {type: "INCREMENT", payload: 10}
 const decremenet = {type: "DECREMENT"}
 
-
-
-
-
 const App = () => {
   return (
     <div>
